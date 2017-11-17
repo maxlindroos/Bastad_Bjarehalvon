@@ -20,11 +20,14 @@ public class Start extends AppCompatActivity {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                case R.id.navigation_activities:
+                    mTextMessage.setText(R.string.title_activities);
                     return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                case R.id.navigation_bed:
+                    mTextMessage.setText(R.string.title_bed);
+                    return true;
+                case R.id.navigation_foodShop:
+                    mTextMessage.setText(R.string.title_foodShop);
                     return true;
             }
             return false;
