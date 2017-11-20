@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class Start extends AppCompatActivity {
@@ -44,4 +45,8 @@ public class Start extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
+    /* View.OnClickListener = new View.OnClickListener() {
+        public void onClick(View)
+        setContentView(R.layout.activity_activity);
+    } */
 }
