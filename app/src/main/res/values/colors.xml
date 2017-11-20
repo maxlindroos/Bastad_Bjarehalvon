@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF1781</color>
+    <color name="mellanBla">#0079bc</color>
+    <color name="morkBla">#0065a6</color>
+    <color name="ljusBla">#7ab2dd</color>
+    <color name="bastadGra">#b4c3bbb2</color>
 </resources>

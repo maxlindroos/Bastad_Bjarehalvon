@@ -4,4 +4,12 @@
     <string name="title_activities">Aktiviteter</string>
     <string name="title_bed">Boende</string>
     <string name="title_foodShop">Mat &amp; Shopping</string>
+    <string name="textTips">&#160;&#160;Denna veckan:</string>
+    <string name="textTipsInfo1">Sinarpsleden</string>
+    <string name="textLogo"><![CDATA[Båstad & Bjärehalvön]]></string>
+    <string name="bildTips1">Bild till tips</string>
+    <string name="bildVandrare">Bild på vandrare</string>
+    <string name="bastadGra">bakgrundsGra</string>
+    <string name="textTipsInfo2">Tennisvecka</string>
+    <string name="textAlternativ">Se fler alternativ</string>
 </resources>

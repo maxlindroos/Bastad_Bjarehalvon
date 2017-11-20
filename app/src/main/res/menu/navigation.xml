@@ -21,5 +21,4 @@
         android:icon="@drawable/ic_restaurant_black_24dp"
         android:title="@string/title_foodShop" />
 
-
 </menu>
