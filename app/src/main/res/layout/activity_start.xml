@@ -18,42 +18,16 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/background1"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="295dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/bastadGra"
-        android:contentDescription="@string/bastadGra" />
-
-    <ImageView
-        android:id="@+id/background2"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="375dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/bastadGra"
-        android:contentDescription="@string/bastadGra" />
-
     <TextView
         android:id="@+id/textLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/gillsanslight"
         android:text="@string/textLogo"
-        android:textSize="20sp"
-        android:textStyle="italic"
+        android:textColor="@color/bastadSvart"
+        android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,11 +39,11 @@
         android:layout_marginTop="9dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/ic_flagga_crop"
-        app:layout_constraintEnd_toStartOf="@+id/languageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/infoButton"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/languageButton2"
+        android:id="@+id/infoButton"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginEnd="8dp"
@@ -81,26 +55,41 @@
 
     <ImageView
         android:id="@+id/bildVandrare"
-        android:layout_width="362dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="0dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="45dp"
         android:contentDescription="@string/bildVandrare"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/vandrare2" />
 
+    <ImageView
+        android:id="@+id/bildWeek"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/ljusBla" />
+
     <TextView
         android:id="@+id/textWeek"
-        android:layout_width="300dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="255dp"
-        android:background="#0065a6"
+        android:fontFamily="@font/myriadproregular"
+        android:gravity="start"
         android:text="@string/textTips"
         android:textAlignment="textStart"
-        android:gravity="start"
+        android:textAllCaps="false"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -111,8 +100,22 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
         android:layout_marginTop="300dp"
-        android:layout_marginLeft="140dp"
+        android:fontFamily="@font/myriadproregular"
         android:text="@string/textTipsInfo1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textInfoDetail1"
+        android:layout_width="184dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/myriadproregular"
+        android:text="@string/textInfoDetail1"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -122,18 +125,31 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
         android:layout_marginTop="380dp"
-        android:layout_marginLeft="140dp"
+        android:fontFamily="@font/myriadproregular"
         android:text="@string/textTipsInfo2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textInfoDetail2"
+        android:layout_width="184dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/myriadproregular"
+        android:text="@string/textInfoDetail2"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/bildInfo"
+        android:id="@+id/bildInfo1"
         android:layout_width="90dp"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
         android:layout_marginTop="300dp"
-        android:layout_marginLeft="35dp"
         android:background="@drawable/kulle"
         android:contentDescription="@string/bildTips1"
         app:layout_constraintStart_toStartOf="parent"
@@ -159,13 +175,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="465dp"
+        android:fontFamily="@font/myriadproregular"
+        android:gravity="start"
         android:text="@string/textAlternativ"
         android:textAlignment="textStart"
-        android:gravity="start"
+        android:textAllCaps="true"
+        android:textColor="@color/morkBla"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-         />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
@@ -176,14 +195,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="319dp" />
 
 </android.support.constraint.ConstraintLayout>
